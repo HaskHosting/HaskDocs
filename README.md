@@ -1,41 +1,45 @@
-# Website
+# 📖 HaskHosting Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bem-vindo ao repositório oficial de documentação da **HaskHosting**. Este projeto armazena todos os guias, tutoriais e termos de serviço utilizados em nossa central de ajuda.
 
-## Installation
+## 🚀 Estrutura do Projeto
 
-```bash
-yarn
-```
+A documentação está organizada por categorias para facilitar a navegação:
 
-## Local Development
+* **/docs/vps**: Manuais de configuração de servidores Linux, Windows e Segurança/Firewall.
+* **/docs/jogos**: Guias específicos para Minecraft, Hytale, MTA:SA e outros.
+* **/docs/financeiro**: Termos de serviço, políticas de reembolso e métodos de pagamento.
+* **/docs/web**: Tutoriais de hospedagem de sites e gerenciamento de domínios.
 
-```bash
-yarn start
-```
+## 🛠️ Tecnologias Utilizadas
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Este projeto foi construído utilizando:
+* [Docusaurus 3](https://docusaurus.io/) - Gerador de site estático moderno.
+* [Markdown](https://www.markdownguide.org/) - Linguagem de marcação para os documentos.
 
-## Build
+## 📥 Como Contribuir
 
-```bash
-yarn build
-```
+1.  Faça o clone do repositório:
+    ```bash
+    git clone [https://github.com/HaskHosting/HaskDocs.git](https://github.com/HaskHosting/HaskDocs.git)
+    ```
+2.  Crie uma branch para sua alteração:
+    ```bash
+    git checkout -b feat/nova-documentacao
+    ```
+3.  Faça o commit das suas alterações:
+    ```bash
+    git commit -m "feat: adicionado guia de otimização"
+    ```
+4.  Envie para o repositório:
+    ```bash
+    git push origin feat/nova-documentacao
+    ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
+## ⚖️ Licença
 
-Using SSH:
+Este conteúdo é de propriedade exclusiva da **HaskHosting**. O uso não autorizado destes   guias em outros portais de hospedagem é estritamente proibido.
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+**© 2026 HaskHosting - Todos os direitos reservados.**
