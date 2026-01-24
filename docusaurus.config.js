@@ -1,5 +1,5 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,8 +10,8 @@ const config = {
   url: 'https://docs.haskhosting.com.br',
   baseUrl: '/',
 
-  organizationName: 'HaskHosting', 
-  projectName: 'docs', 
+  organizationName: 'HaskHosting',
+  projectName: 'docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,14 +27,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // MODO DOCUMENTAÇÃO ATIVADO:
-          routeBasePath: '/', // Isso faz a doc ser a página inicial
-          editUrl: 'https://github.com/HaskHosting/docs/tree/main/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Altere aqui:
+          editUrl: 'https://github.com/HaskHosting/HaskDocs/tree/main/',
         },
-        blog: false, 
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -52,7 +50,7 @@ const config = {
         title: 'HaskHosting',
         logo: {
           alt: 'HaskHosting Logo',
-          src: 'img/logo.svg', 
+          src: 'img/logo.svg',
         },
         items: [
           // Removi o link "Documentação" pois agora o site JÁ É a documentação
