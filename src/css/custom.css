@@ -1,0 +1,94 @@
+/**
+ * CUSTOM CSS - HASKHOSTING DOCS (CORRIGIDO)
+ * Focado em legibilidade total em ambos os modos.
+ */
+
+/* 1. VARIÁVEIS PARA MODO CLARO (PADRÃO) */
+:root {
+  --ifm-color-primary: #3498db;
+  --ifm-color-primary-dark: #2980b9;
+  --ifm-color-primary-darker: #2471a3;
+  --ifm-color-primary-darkest: #1a5276;
+  --ifm-color-primary-light: #5dade2;
+  --ifm-color-primary-lighter: #85c1e9;
+  --ifm-color-primary-lightest: #aed6f1;
+  
+  /* Ajustes de fundo e bordas para o modo claro */
+  --hask-sidebar-bg: #f5f6f7;
+  --hask-navbar-bg: #ffffff;
+  --hask-border: #ebedf0;
+}
+
+/* 2. VARIÁVEIS PARA MODO ESCURO */
+[data-theme='dark'] {
+  --ifm-color-primary: #3498db;
+  --ifm-background-color: #0f1114;
+  --ifm-navbar-background-color: #0f1114;
+  --hask-sidebar-bg: #1a1d21;
+  --hask-navbar-bg: #0f1114;
+  --hask-border: #2d3139;
+  --ifm-menu-color: #9ba1a6;
+  --ifm-menu-color-active: #3498db;
+}
+
+/* 3. NAVBAR - CORREÇÃO DE VISIBILIDADE */
+.navbar {
+  background-color: var(--hask-navbar-bg);
+  border-bottom: 1px solid var(--hask-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. SIDEBAR - CORREÇÃO DE FUNDO E LINKS */
+.theme-doc-sidebar-container {
+  background-color: var(--hask-sidebar-bg) !important;
+  border-right: 1px solid var(--hask-border) !important;
+}
+
+.menu__link {
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+/* Item Ativo com contraste garantido */
+.menu__link--active {
+  background-color: rgba(52, 152, 219, 0.1) !important;
+  color: var(--ifm-color-primary) !important;
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 0 4px 4px 0;
+}
+
+/* 5. BLOCOS DE CÓDIGO (Prevenção de invisibilidade) */
+.markdown code {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--ifm-color-primary);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* 6. BOTÃO ÁREA DO CLIENTE - SEMPRE VISÍVEL */
+.navbar__item[href*="haskhosting.com.br"] {
+  background-color: var(--ifm-color-primary);
+  color: white !important; /* Sempre branco para contrastar com o azul */
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.navbar__item[href*="haskhosting.com.br"]:hover {
+  background-color: var(--ifm-color-primary-dark);
+  text-decoration: none;
+}
+
+/* 7. SCROLLBAR ADAPTATIVA */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-primary-light);
+  border-radius: 10px;
+}
