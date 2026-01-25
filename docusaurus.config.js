@@ -15,6 +15,13 @@ const config = {
   projectName: 'HaskDocs', 
   deploymentBranch: 'main',
 
+  scripts: [
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js',
+      async: true,
+    },
+  ],
+
   onBrokenLinks: 'throw',
   
   // Configuração de Markdown (Correção do Warning de v4)
@@ -101,17 +108,56 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Tutoriais Rápidos',
+            title: 'HaskHosting',
             items: [
-              { label: 'Minecraft', to: '/jogos/minecraft' },
-              { label: 'VPS Linux', to: '/vps/linux' },
+              {
+                html: `
+                  <p style="color: #9ca3af; margin-bottom: 1.5rem; font-size: 0.9rem;">
+                    Servidores de alta performance para Minecraft, NodeJS e VPS. Suporte especializado e preços competitivos.
+                  </p>
+                  <div style="display: flex; gap: 1rem;">
+                    <a href="https://www.facebook.com/share/1FwQK7zYzn/" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 1.2rem;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/haskhosting" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/haskhosting" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.gg/H2xdSCJSHt" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 1.2rem;"><i class="fab fa-discord"></i></a>
+                  </div>
+                `,
+              },
             ],
           },
           {
-            title: 'Comunidade',
+            title: 'Serviços',
             items: [
-              { label: 'Discord', href: 'https://discord.gg/H2xdSCJSHt' },
-              { label: 'Instagram', href: 'https://instagram.com/haskhosting' },
+              { label: 'Minecraft', href: 'https://haskhosting.com.br/hospedagem/minecraft/' },
+              { label: 'NodeJS', href: 'https://haskhosting.com.br/hospedagem/nodejs/' },
+              { label: 'Servidores VPS', href: 'https://haskhosting.com.br/hospedagem/servidores-vps/' },
+              { label: 'Hospedagem', href: 'https://haskhosting.com.br/hospedagem/' },
+            ],
+          },
+          {
+            title: 'Links Úteis',
+            items: [
+              { label: 'Termos de Serviço', href: 'https://haskhosting.com.br/termos/' },
+              { label: 'Política de Privacidade', href: 'https://haskhosting.com.br/politica-privacidade/' },
+              { label: 'Status dos Serviços', href: 'https://status.haskhosting.com.br/' },
+              { label: 'FAQ', href: 'https://haskhosting.com.br/faq/' },
+            ],
+          },
+          {
+            title: 'Contato',
+            items: [
+              {
+                html: `
+                  <ul style="list-style: none; padding: 0; color: #9ca3af; font-size: 0.9rem;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 8px; color: #3b82f6;"></i> atendimento@haskhosting.com.br</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 11px; color: #3b82f6;"></i> Brasil</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-headset" style="margin-right: 8px; color: #3b82f6;"></i> Suporte 24/7</li>
+                  </ul>
+                  <a href="https://discord.com/channels/744772510620450896/1076542272784580608" target="_blank" rel="noopener" style="background-color: #3b82f6; color: white; padding: 0.6rem 1.2rem; border-radius: 9999px; display: inline-flex; align-items: center; text-decoration: none; margin-top: 1rem; font-weight: 600; font-size: 0.8rem;">
+                    <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i> ENVIAR MENSAGEM
+                  </a>
+                `,
+              },
             ],
           },
         ],
