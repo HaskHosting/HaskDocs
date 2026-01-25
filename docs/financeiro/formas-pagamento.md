@@ -32,5 +32,5 @@ Você pode adicionar fundos à sua conta HaskHosting e utilizá-los para renovar
 ---
 
 :::info NOTA SOBRE ESTORNO
-Caso haja necessidade de reembolso dentro do prazo legal de 7 dias (conforme o CDC), o valor será devolvido preferencialmente via crédito em conta ou estorno no cartão de crédito, conforme o método original utilizado.
+Verificar a nossa política de reembolso.
 :::

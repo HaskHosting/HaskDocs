@@ -10,8 +10,8 @@ Como Gerente Comercial, ajudamos você a não gastar mais do que o necessário.
 
 | Perfil | Plano Recomendado | RAM Ideal |
 | :--- | :--- | :--- |
-| **Survival com Amigos** | Minecraft Start | 2GB - 4GB |
-| **Rankup / FullIron** | Minecraft Pro | 6GB - 10GB |
-| **Modpacks Pesados** | Minecraft Elite | 12GB+ |
-| **Bots de Discord** | Node.js Basic | 512MB - 1GB |
-| **Servidor de MTA (300 slots)** | VPS Standard | 4GB - 8GB |
+| **Survival com Amigos** | Plano Grama | 2GB - 4GB |
+| **Rankup / FullIron** | Plano Areia | 6GB - 10GB |
+| **Modpacks Pesados** | Plano Ouro | 12GB+ |
+| **Bots de Discord** | Node.js | 512MB - 1GB |
+| **VPS ST-022 - KVM** | VPS Standard | 4GB - 8GB |
