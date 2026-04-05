@@ -3,7 +3,8 @@ id: alterar-eggs-painel
 title: Como Alterar Eggs pelo Painel
 sidebar_label: Alterar Eggs
 ---
-# ⚙️ Alteração de Eggs pelo Painel
+## ⚙️ Alteração de Eggs pelo Painel
+
 Agora ficou muito mais simples alterar a versão do seu servidor diretamente pelo painel, sem precisar recriar ou fazer processos manuais.
 Essa funcionalidade permite trocar entre diferentes versões de forma rápida, segura e prática, tanto para servidores Minecraft Java quanto Bedrock.
 ---
