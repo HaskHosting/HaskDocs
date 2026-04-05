@@ -1,17 +1,16 @@
 // @ts-check
-
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
       label: '🚀 Começando',
-      items: ['intro'], // Refere-se ao arquivo docs/intro.md
+      items: ['intro'],
     },
     {
       type: 'category',
       label: '🎮 Servidores de Jogos',
-      collapsed: false, // Deixa aberto por padrão
+      collapsed: false,
       items: [
         'jogos/minecraft',
         'jogos/hytale',
@@ -44,16 +43,27 @@ const sidebars = {
         'web/configurar-dominio',
       ],
     },
-    // Adicione dentro de sidebars.js
     {
       type: 'category',
       label: '📦 Gestão de Arquivos',
       items: ['painel/sftp-filezilla', 'painel/transferir-mundo'],
     },
+    // ✅ Nova categoria adicionada
+    {
+      type: 'category',
+      label: '🖥️ Painel',
+      items: [
+        'painel/alterar-eggs-painel',
+      ],
+    },
     {
       type: 'category',
       label: '⚙️ Configuração Avançada',
-      items: ['painel/atualizar-mods', 'painel/agendamento-tarefas', 'jogos/comandos-basicos'],
+      items: [
+        'painel/atualizar-mods',
+        'painel/agendamento-tarefas',
+        'jogos/comandos-basicos',
+      ],
     },
     {
       type: 'category',
@@ -70,5 +80,4 @@ const sidebars = {
     },
   ],
 };
-
 export default sidebars;
