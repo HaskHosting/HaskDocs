@@ -20,6 +20,12 @@ const config = {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js',
       async: true,
     },
+    {
+      src: 'https://embed.tawk.to/5f4fcc46f0e7167d000ce70a/1eqfdjunv',
+      async: true,
+      charset: 'UTF-8',
+      crossorigin: 'anonymous',
+  },
   ],
 
   onBrokenLinks: 'throw',
