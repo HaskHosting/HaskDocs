@@ -38,7 +38,7 @@ Se você não encontrar a solução para o seu problema aqui na documentação, 
 
 1. **Discord:** Entre em nossa comunidade para suporte rápido. [Clique aqui](https://discord.gg/H2xdSCJSHt)
 2. **Ticket:** Abra um chamado técnico na sua [Área do Cliente](https://cliente.haskhosting.com.br/submitticket.php).
-3. **Status:** Verifique se nossos serviços estão online em tempo real. [Status](https://status.haskhosting.com.br)
+3. **Status:** Verifique se nossos serviços estão online em tempo real. [Status](https://cliente.haskhosting.com.br/serverstatus.php)
 
 ---
 
