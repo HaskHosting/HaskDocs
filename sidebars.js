@@ -8,16 +8,22 @@ const sidebars = {
       items: ['intro'],
     },
     {
+  type: 'category',
+  label: '🎮 Servidores de Jogos',
+  collapsed: false,
+  items: [
+    {
       type: 'category',
-      label: '🎮 Servidores de Jogos',
-      collapsed: false,
+      label: 'Minecraft',
       items: [
         'jogos/minecraft',
-        'jogos/hytale',
-        'jogos/mta-sa',
-        'jogos/enviar-mundo-servidor',
+        'jogos/enviar-mundo-servidor',  // ← movido para cá
       ],
     },
+    'jogos/hytale',
+    'jogos/mta-sa',
+  ],
+},
     {
       type: 'category',
       label: '💻 Hospedagem VPS',
