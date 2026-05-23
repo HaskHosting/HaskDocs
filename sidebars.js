@@ -15,6 +15,7 @@ const sidebars = {
         'jogos/minecraft',
         'jogos/hytale',
         'jogos/mta-sa',
+        'jogos/enviar-mundo-servidor',
       ],
     },
     {
